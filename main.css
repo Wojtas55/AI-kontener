@@ -1,0 +1,25 @@
+html, body{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#fff 0%, #aaa 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    background: #b1b1b1;
+    width: 30vw;
+    height: 30vh;
+}
+svg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+line{
+    stroke: blue;
+    stroke-width: 4px;
+}
